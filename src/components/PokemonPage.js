@@ -10,7 +10,7 @@ const [pokemon, setPokemon] = useState([])
 useEffect(() => {
   fetch("http://localhost:3001/pokemon")
     .then((r) => r.json())
-    .then((pokemon) => setPokemon(pokemon));
+    .then(setPokemon);
 }, []);
 
 
