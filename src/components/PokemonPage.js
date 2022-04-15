@@ -22,7 +22,7 @@ useEffect(() => {
       <br />
       <Search />
       <br />
-      <PokemonCollection />
+      <PokemonCollection pokemon={pokemon} />
     </Container>
   );
 }
