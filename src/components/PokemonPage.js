@@ -6,6 +6,7 @@ import { Container } from "semantic-ui-react";
 
 function PokemonPage() {
 const [pokemon, setPokemon] = useState([])
+const [search, setSearch] =useState("")
 
 useEffect(() => {
   fetch("http://localhost:3001/pokemon")
